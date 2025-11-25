@@ -1,0 +1,31 @@
+# Build artifacts
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Go modules (from CodeQL/testing)
+root/
+pkg/
+vendor/
+
+# Test outputs
+*.log
+test-results/
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/

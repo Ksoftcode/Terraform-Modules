@@ -1,3 +1,0 @@
-services:
-  test-docker-image:
-    image: busybox
