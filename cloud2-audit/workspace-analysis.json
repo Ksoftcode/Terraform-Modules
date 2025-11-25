@@ -1,0 +1,3084 @@
+{
+  "generated_at": "2025-11-25T19:00:21.911Z",
+  "analysis_summary": {
+    "repository_type": "umbrella_repository_with_submodules",
+    "total_module_references": 140,
+    "modules_with_code": 0,
+    "critical_finding": "Repository contains only git submodule references without actual Terraform code. Submodules are not initialized.",
+    "repository_state": "INCOMPLETE - All module directories are empty git submodule stubs"
+  },
+  "modules": [
+    {
+      "name": "Terraform-Import_AzTFExport",
+      "path": "Terraform-Import_AzTFExport",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-appviewx-download-to-keyvault",
+      "path": "terraform-appviewx-download-to-keyvault",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Key Vault"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-appviewx-new-certificate",
+      "path": "terraform-appviewx-new-certificate",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-appviewx-new-certificate-to-akv",
+      "path": "terraform-appviewx-new-certificate-to-akv",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azure-network-example",
+      "path": "terraform-azure-network-example",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Networking"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azure-network-resources",
+      "path": "terraform-azure-network-resources",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Networking"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-ADFNOCODE-testing",
+      "path": "terraform-azurerm-ADFNOCODE-testing",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-addmembertoadgroup",
+      "path": "terraform-azurerm-addmembertoadgroup",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-aks-cluster",
+      "path": "terraform-azurerm-aks-cluster",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm",
+          "kubernetes"
+        ],
+        "inferred_purpose": "Azure Kubernetes Service"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-aks-cluster-cilium",
+      "path": "terraform-azurerm-aks-cluster-cilium",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm",
+          "kubernetes"
+        ],
+        "inferred_purpose": "Azure Kubernetes Service"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-aks-cluster-non-cilium",
+      "path": "terraform-azurerm-aks-cluster-non-cilium",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm",
+          "kubernetes"
+        ],
+        "inferred_purpose": "Azure Kubernetes Service"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-aks-infra",
+      "path": "terraform-azurerm-aks-infra",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm",
+          "kubernetes"
+        ],
+        "inferred_purpose": "Azure Kubernetes Service"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-aks-namespace",
+      "path": "terraform-azurerm-aks-namespace",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm",
+          "kubernetes"
+        ],
+        "inferred_purpose": "Azure Kubernetes Service"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-aks-namespace-creation-request",
+      "path": "terraform-azurerm-aks-namespace-creation-request",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm",
+          "kubernetes"
+        ],
+        "inferred_purpose": "Azure Kubernetes Service"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-aks-namespace-resource-quota",
+      "path": "terraform-azurerm-aks-namespace-resource-quota",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm",
+          "kubernetes"
+        ],
+        "inferred_purpose": "Azure Kubernetes Service"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-aks-namespace-rolebinding",
+      "path": "terraform-azurerm-aks-namespace-rolebinding",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm",
+          "kubernetes"
+        ],
+        "inferred_purpose": "Azure Kubernetes Service"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-aks-pv-creation",
+      "path": "terraform-azurerm-aks-pv-creation",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm",
+          "kubernetes"
+        ],
+        "inferred_purpose": "Azure Kubernetes Service"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-aks-pvc-creation",
+      "path": "terraform-azurerm-aks-pvc-creation",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm",
+          "kubernetes"
+        ],
+        "inferred_purpose": "Azure Kubernetes Service"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-aks-role-binding",
+      "path": "terraform-azurerm-aks-role-binding",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm",
+          "kubernetes"
+        ],
+        "inferred_purpose": "Azure Kubernetes Service"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-anfvolume",
+      "path": "terraform-azurerm-anfvolume",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-anfvolumesnapshot",
+      "path": "terraform-azurerm-anfvolumesnapshot",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-api-management",
+      "path": "terraform-azurerm-api-management",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-app-service-environment",
+      "path": "terraform-azurerm-app-service-environment",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-appservices-environment",
+      "path": "terraform-azurerm-appservices-environment",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-appservices-linux",
+      "path": "terraform-azurerm-appservices-linux",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-appservices-plan",
+      "path": "terraform-azurerm-appservices-plan",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-appservices-windows",
+      "path": "terraform-azurerm-appservices-windows",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-automation-account",
+      "path": "terraform-azurerm-automation-account",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-availabilityset",
+      "path": "terraform-azurerm-availabilityset",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-availabilityset-nocode-poc",
+      "path": "terraform-azurerm-availabilityset-nocode-poc",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-azure-key-vault",
+      "path": "terraform-azurerm-azure-key-vault",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Key Vault"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-bastion-host",
+      "path": "terraform-azurerm-bastion-host",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-brownfield-appservice-linux",
+      "path": "terraform-azurerm-brownfield-appservice-linux",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-brownfield-appservice-windows",
+      "path": "terraform-azurerm-brownfield-appservice-windows",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-brownfield-azure-key-vault",
+      "path": "terraform-azurerm-brownfield-azure-key-vault",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Key Vault"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-brownfield-linux-virtual-machine",
+      "path": "terraform-azurerm-brownfield-linux-virtual-machine",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-brownfield-loadbalancer",
+      "path": "terraform-azurerm-brownfield-loadbalancer",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-brownfield-logicapp-standard",
+      "path": "terraform-azurerm-brownfield-logicapp-standard",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-brownfield-manage-identity",
+      "path": "terraform-azurerm-brownfield-manage-identity",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-brownfield-private-endpoint",
+      "path": "terraform-azurerm-brownfield-private-endpoint",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-brownfield-storage-account",
+      "path": "terraform-azurerm-brownfield-storage-account",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Storage"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-brownfield-windows-virtual-machine",
+      "path": "terraform-azurerm-brownfield-windows-virtual-machine",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-cognitivesearch",
+      "path": "terraform-azurerm-cognitivesearch",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-combined-windows-virtualmachine-no-code",
+      "path": "terraform-azurerm-combined-windows-virtualmachine-no-code",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Virtual Machine"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-consolidated-aoaloadbalancer",
+      "path": "terraform-azurerm-consolidated-aoaloadbalancer",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-consolidated-windows-virtualmachine",
+      "path": "terraform-azurerm-consolidated-windows-virtualmachine",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Virtual Machine"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-container-app",
+      "path": "terraform-azurerm-container-app",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-container-app-environment",
+      "path": "terraform-azurerm-container-app-environment",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-container-instances",
+      "path": "terraform-azurerm-container-instances",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-container-registry",
+      "path": "terraform-azurerm-container-registry",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-datafactory",
+      "path": "terraform-azurerm-datafactory",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-datafactory-azure-ir",
+      "path": "terraform-azurerm-datafactory-azure-ir",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-datafactory-consolidated",
+      "path": "terraform-azurerm-datafactory-consolidated",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-datafactory-linked-shir",
+      "path": "terraform-azurerm-datafactory-linked-shir",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-datafactory-managed-private-endpoint",
+      "path": "terraform-azurerm-datafactory-managed-private-endpoint",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-datafactory-shir-vmss",
+      "path": "terraform-azurerm-datafactory-shir-vmss",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Virtual Machine"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-diagnosticsettings",
+      "path": "terraform-azurerm-diagnosticsettings",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-documentintelligence",
+      "path": "terraform-azurerm-documentintelligence",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-event-hub-instance",
+      "path": "terraform-azurerm-event-hub-instance",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-event-hub-namespace",
+      "path": "terraform-azurerm-event-hub-namespace",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-f5-gtm-modules",
+      "path": "terraform-azurerm-f5-gtm-modules",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-f5-ha",
+      "path": "terraform-azurerm-f5-ha",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-f5-standalone",
+      "path": "terraform-azurerm-f5-standalone",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-functionapp-linux",
+      "path": "terraform-azurerm-functionapp-linux",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-functionapp-windows",
+      "path": "terraform-azurerm-functionapp-windows",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-infrastructure-iaas",
+      "path": "terraform-azurerm-infrastructure-iaas",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-infrastructure-iaas-dev",
+      "path": "terraform-azurerm-infrastructure-iaas-dev",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-infrastructure-iaas-dr",
+      "path": "terraform-azurerm-infrastructure-iaas-dr",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-infrastructure-iaas-prod",
+      "path": "terraform-azurerm-infrastructure-iaas-prod",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-infrastructure-iaas-qa",
+      "path": "terraform-azurerm-infrastructure-iaas-qa",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-infrastructure-iaas-stg",
+      "path": "terraform-azurerm-infrastructure-iaas-stg",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-infrastructure-iaas-trng",
+      "path": "terraform-azurerm-infrastructure-iaas-trng",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-infrastructure-iaas-uat",
+      "path": "terraform-azurerm-infrastructure-iaas-uat",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-infrastructure-iaas-windows-2022-dev",
+      "path": "terraform-azurerm-infrastructure-iaas-windows-2022-dev",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-infrastructure-iaas-windows-2022-qa",
+      "path": "terraform-azurerm-infrastructure-iaas-windows-2022-qa",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-infrastructure-iaas-windows-2022-uat",
+      "path": "terraform-azurerm-infrastructure-iaas-windows-2022-uat",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-keyvaultaccesspolicy",
+      "path": "terraform-azurerm-keyvaultaccesspolicy",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Key Vault"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-linux-virtualmachine",
+      "path": "terraform-azurerm-linux-virtualmachine",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Virtual Machine"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-linux-virtualmachine-app-web",
+      "path": "terraform-azurerm-linux-virtualmachine-app-web",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Virtual Machine"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-loadbalancer-aoa",
+      "path": "terraform-azurerm-loadbalancer-aoa",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-loadbalancer-no-code",
+      "path": "terraform-azurerm-loadbalancer-no-code",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-logicapp-standard",
+      "path": "terraform-azurerm-logicapp-standard",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-mandatory-tags",
+      "path": "terraform-azurerm-mandatory-tags",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-mongo-cluster-vcore",
+      "path": "terraform-azurerm-mongo-cluster-vcore",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-mysqlflexibleserver",
+      "path": "terraform-azurerm-mysqlflexibleserver",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Database"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-mysqlflexibleserver-administrators",
+      "path": "terraform-azurerm-mysqlflexibleserver-administrators",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Database"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-mysqlflexibleserver-configuration",
+      "path": "terraform-azurerm-mysqlflexibleserver-configuration",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Database"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-mysqlflexibleserver-database",
+      "path": "terraform-azurerm-mysqlflexibleserver-database",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Database"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-mysqlflexibleserver-replica",
+      "path": "terraform-azurerm-mysqlflexibleserver-replica",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Database"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-nc-loadbalancer-aoa",
+      "path": "terraform-azurerm-nc-loadbalancer-aoa",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-network-interface",
+      "path": "terraform-azurerm-network-interface",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Networking"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-network-interface-no-code",
+      "path": "terraform-azurerm-network-interface-no-code",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Networking"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-nginx-plus-vm",
+      "path": "terraform-azurerm-nginx-plus-vm",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Virtual Machine"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-nocode-poc-app-web-vm",
+      "path": "terraform-azurerm-nocode-poc-app-web-vm",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Virtual Machine"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-nocode-poc-uami",
+      "path": "terraform-azurerm-nocode-poc-uami",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-nodepool-creation",
+      "path": "terraform-azurerm-nodepool-creation",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-openai",
+      "path": "terraform-azurerm-openai",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure OpenAI"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-openaideployment",
+      "path": "terraform-azurerm-openaideployment",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure OpenAI"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-postgresqlflexibleserver",
+      "path": "terraform-azurerm-postgresqlflexibleserver",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Database"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-postgresqlflexibleserver-administrators",
+      "path": "terraform-azurerm-postgresqlflexibleserver-administrators",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Database"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-postgresqlflexibleserver-configuration",
+      "path": "terraform-azurerm-postgresqlflexibleserver-configuration",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Database"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-postgresqlflexibleserver-database",
+      "path": "terraform-azurerm-postgresqlflexibleserver-database",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Database"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-postgresqlflexibleserver-replica",
+      "path": "terraform-azurerm-postgresqlflexibleserver-replica",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Database"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-privateendpoint",
+      "path": "terraform-azurerm-privateendpoint",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-rediscache",
+      "path": "terraform-azurerm-rediscache",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-resource-group",
+      "path": "terraform-azurerm-resource-group",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-rsv_backup_policy",
+      "path": "terraform-azurerm-rsv_backup_policy",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-sc-loadbalancer-aoa",
+      "path": "terraform-azurerm-sc-loadbalancer-aoa",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-sentinal-policies",
+      "path": "terraform-azurerm-sentinal-policies",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-speechservices",
+      "path": "terraform-azurerm-speechservices",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-sqlmi",
+      "path": "terraform-azurerm-sqlmi",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Database"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-sqlmi-dr",
+      "path": "terraform-azurerm-sqlmi-dr",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Database"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-sqlmi-failovergroup",
+      "path": "terraform-azurerm-sqlmi-failovergroup",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Database"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-storage_data_lake_gen2_filesystem",
+      "path": "terraform-azurerm-storage_data_lake_gen2_filesystem",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Storage"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-storageaccount",
+      "path": "terraform-azurerm-storageaccount",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Storage"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-synapse-managed-private-endpoint",
+      "path": "terraform-azurerm-synapse-managed-private-endpoint",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-synapse-sql-pool",
+      "path": "terraform-azurerm-synapse-sql-pool",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Database"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-synapse-workspace",
+      "path": "terraform-azurerm-synapse-workspace",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-translatorservice",
+      "path": "terraform-azurerm-translatorservice",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-userassigned-managed-identity",
+      "path": "terraform-azurerm-userassigned-managed-identity",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-v6sku-poc",
+      "path": "terraform-azurerm-v6sku-poc",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-virtual-network",
+      "path": "terraform-azurerm-virtual-network",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Networking"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-virtualmachine",
+      "path": "terraform-azurerm-virtualmachine",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Virtual Machine"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-virtualmachine-test",
+      "path": "terraform-azurerm-virtualmachine-test",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Virtual Machine"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-vm-avset",
+      "path": "terraform-azurerm-vm-avset",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Virtual Machine"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-vm-manageddisk",
+      "path": "terraform-azurerm-vm-manageddisk",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Virtual Machine"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-vm-networkinterface",
+      "path": "terraform-azurerm-vm-networkinterface",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Networking"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-vm-rsv",
+      "path": "terraform-azurerm-vm-rsv",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Virtual Machine"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-windows-aoa-virtualmachine",
+      "path": "terraform-azurerm-windows-aoa-virtualmachine",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Virtual Machine"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-windows-virtualmachine",
+      "path": "terraform-azurerm-windows-virtualmachine",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Virtual Machine"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-windows-virtualmachine-aoa-azure-disk",
+      "path": "terraform-azurerm-windows-virtualmachine-aoa-azure-disk",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Virtual Machine"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-windows-virtualmachine-aoa-pure-disk",
+      "path": "terraform-azurerm-windows-virtualmachine-aoa-pure-disk",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Virtual Machine"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-windows-virtualmachine-aoa-pure-disk-biztalk",
+      "path": "terraform-azurerm-windows-virtualmachine-aoa-pure-disk-biztalk",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Virtual Machine"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-windows-virtualmachine-app-server-biztalk",
+      "path": "terraform-azurerm-windows-virtualmachine-app-server-biztalk",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Virtual Machine"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-windows-virtualmachine-app-web",
+      "path": "terraform-azurerm-windows-virtualmachine-app-web",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Virtual Machine"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-windows-virtualmachine-standalone-azure-disk",
+      "path": "terraform-azurerm-windows-virtualmachine-standalone-azure-disk",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Virtual Machine"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-windows-virtualmachine-standalone-pure-disk",
+      "path": "terraform-azurerm-windows-virtualmachine-standalone-pure-disk",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Virtual Machine"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-azurerm-windows-vm-standalone-azure-disk-biztalk",
+      "path": "terraform-azurerm-windows-vm-standalone-azure-disk-biztalk",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure Virtual Machine"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-infoblox-dns-record",
+      "path": "terraform-infoblox-dns-record",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    },
+    {
+      "name": "terraform-to-splunk-data-ingestion",
+      "path": "terraform-to-splunk-data-ingestion",
+      "status": "submodule_not_initialized",
+      "summary": {
+        "terraform_required_version": null,
+        "providers": [
+          "azurerm"
+        ],
+        "inferred_purpose": "Azure resource (inferred from naming)"
+      },
+      "variables": [],
+      "outputs": [],
+      "resources": [],
+      "data_sources": [],
+      "providers": [],
+      "hard_coded": [],
+      "backend_in_module": "unknown",
+      "tests_present": false,
+      "examples_present": false
+    }
+  ],
+  "module_categories": {
+    "compute": [
+      "terraform-azurerm-linux-virtualmachine",
+      "terraform-azurerm-windows-virtualmachine",
+      "terraform-azurerm-aks-cluster"
+    ],
+    "networking": [
+      "terraform-azurerm-virtual-network",
+      "terraform-azure-network-resources",
+      "terraform-azurerm-privateendpoint"
+    ],
+    "storage": [
+      "terraform-azurerm-storageaccount",
+      "terraform-azurerm-anfvolume"
+    ],
+    "database": [
+      "terraform-azurerm-mysqlflexibleserver",
+      "terraform-azurerm-postgresqlflexibleserver",
+      "terraform-azurerm-sqlmi"
+    ],
+    "security": [
+      "terraform-azurerm-azure-key-vault",
+      "terraform-azurerm-keyvaultaccesspolicy"
+    ],
+    "ai_ml": [
+      "terraform-azurerm-openai",
+      "terraform-azurerm-cognitivesearch"
+    ],
+    "kubernetes": [
+      "terraform-azurerm-aks-cluster",
+      "terraform-azurerm-aks-namespace"
+    ]
+  },
+  "issues": [
+    {
+      "id": "ISSUE-001",
+      "module": "ALL",
+      "files": [
+        "Repository root"
+      ],
+      "severity": "Critical",
+      "title": "Submodules Not Initialized",
+      "description": "The repository contains 140 git submodule references but none are initialized.",
+      "evidence": "git ls-tree HEAD shows mode 160000 (submodule) for all directories",
+      "remediation": "Create .gitmodules file and run git submodule update --init",
+      "estimate_hours": 8
+    },
+    {
+      "id": "ISSUE-002",
+      "module": "ALL",
+      "files": [
+        ".gitmodules (missing)"
+      ],
+      "severity": "Critical",
+      "title": "Missing .gitmodules File",
+      "description": "No .gitmodules file exists to configure submodule URLs.",
+      "evidence": "File .gitmodules does not exist",
+      "remediation": "Create .gitmodules with proper submodule mappings",
+      "estimate_hours": 4
+    },
+    {
+      "id": "ISSUE-003",
+      "module": "terraform-azurerm-infrastructure-iaas-*",
+      "files": [
+        "Multiple environment modules"
+      ],
+      "severity": "Medium",
+      "title": "Environment-Specific Module Anti-Pattern",
+      "description": "Multiple modules exist for different environments violating DRY principles.",
+      "evidence": "dev, qa, uat, stg, prod, dr, trng variants exist",
+      "remediation": "Consolidate to single parameterized module",
+      "estimate_hours": 40
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "REC-001",
+      "priority": "Critical",
+      "title": "Initialize Submodules or Convert to Monorepo"
+    },
+    {
+      "id": "REC-002",
+      "priority": "High",
+      "title": "Establish Module Registry"
+    },
+    {
+      "id": "REC-003",
+      "priority": "Medium",
+      "title": "Consolidate Environment-Specific Modules"
+    }
+  ],
+  "action_plan": [
+    {
+      "week": 1,
+      "tasks": [
+        {
+          "id": "TASK-001",
+          "desc": "Create .gitmodules file",
+          "owner": "platform-team",
+          "hours_estimate": 4
+        },
+        {
+          "id": "TASK-002",
+          "desc": "Initialize all submodules",
+          "owner": "platform-team",
+          "hours_estimate": 4
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "tasks": [
+        {
+          "id": "TASK-003",
+          "desc": "Audit modules for security issues",
+          "owner": "security-team",
+          "hours_estimate": 16
+        }
+      ]
+    }
+  ]
+}
