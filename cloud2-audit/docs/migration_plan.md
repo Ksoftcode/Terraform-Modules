@@ -49,12 +49,22 @@ variable "env" {
 locals {
   # Prefer canonical, fall back to legacy, then default
   environment = coalesce(var.environment, var.env, "dev")
-  
-  # Emit deprecation warning via validation (Terraform 1.4+)
-  _env_deprecation_check = var.env != null ? (
-    warn("Variable 'env' is deprecated. Use 'environment' instead.")
-  ) : null
 }
+
+# Note: Terraform does not have a warn() function. Instead, use comments
+# in the variable definition to document deprecation. For runtime enforcement,
+# use a validation block in the variable definition:
+
+# variable "env" {
+#   description = "DEPRECATED: Use 'environment' instead"
+#   type        = string
+#   default     = null
+#   
+#   validation {
+#     condition     = var.env == null
+#     error_message = "Variable 'env' is deprecated. Please use 'environment' instead."
+#   }
+# }
 ```
 
 ### Step 3: Use Local in Resources
@@ -286,20 +296,45 @@ output "rg_id" {
 }
 ```
 
-## Validation Function (Terraform 1.4+)
+## Deprecation Detection Pattern (Terraform 1.4+)
+
+Since Terraform doesn't have a native deprecation warning mechanism, use validation blocks
+to enforce migration after the deprecation period:
 
 ```hcl
-# Can be used to emit warnings for deprecated variable usage
-locals {
-  _deprecation_warnings = [
-    var.env != null ? "WARNING: Variable 'env' is deprecated. Use 'environment' instead." : null,
-    var.proj != null ? "WARNING: Variable 'proj' is deprecated. Use 'project' instead." : null,
-    var.loc != null ? "WARNING: Variable 'loc' is deprecated. Use 'location' instead." : null,
-  ]
-  
-  # This will cause the warnings to be evaluated
-  _check_deprecations = compact(local._deprecation_warnings)
+# After the deprecation grace period, add validation to block usage
+variable "env" {
+  description = "DEPRECATED: Use 'environment' instead. Will error after v2.0.0"
+  type        = string
+  default     = null
+
+  # Uncomment after grace period to force migration
+  # validation {
+  #   condition     = var.env == null
+  #   error_message = "Variable 'env' is deprecated and no longer supported. Use 'environment' instead."
+  # }
 }
+
+# During the grace period, document deprecation in comments and README
+# The coalesce pattern allows both old and new variable names to work
+locals {
+  environment = coalesce(var.environment, var.env, "dev")
+}
+```
+
+### Alternative: Use terraform-docs
+
+Document deprecations in README and use terraform-docs to generate warnings:
+
+```markdown
+## Deprecated Variables
+
+> ⚠️ **Warning**: The following variables are deprecated and will be removed in v2.0.0
+
+| Variable | Replacement | Removal Date |
+|----------|-------------|--------------|
+| `env` | `environment` | 2025-03-01 |
+| `proj` | `project` | 2025-03-01 |
 ```
 
 ## Questions?

@@ -8,6 +8,7 @@
 package test
 
 import (
+	"os"
 	"testing"
 
 	"github.com/gruntwork-io/terratest/modules/terraform"
@@ -54,7 +55,9 @@ func TestModuleWithExistingRG(t *testing.T) {
 	t.Parallel()
 
 	// Skip if running in CI without Azure credentials
-	// t.Skip("Skipping test that requires existing Azure resources")
+	if os.Getenv("AZURE_SUBSCRIPTION_ID") == "" {
+		t.Skip("Skipping test that requires Azure credentials - set AZURE_SUBSCRIPTION_ID")
+	}
 
 	terraformOptions := &terraform.Options{
 		TerraformDir: "../examples/simple",
